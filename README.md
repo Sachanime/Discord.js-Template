@@ -34,7 +34,10 @@ You must put in this file your bot client id and token to use it in the `index.j
 `package.json` contains informations that you can edit, like Discord bot name, version, author, etc...
 
 `package-lock.json` contains informations about Node.js package used in your project<br>
+
+> \[!WARNING]\
 You must not edit this file manualy<br>
 If you want update a Node.js package, you need [Node.js](https://nodejs.org/) and execute `npm update <package>`<br>
+
 But you can use this file to get informations about packages and use it in your code<br>
 *You can see `infosEmbed` for an exemple*
