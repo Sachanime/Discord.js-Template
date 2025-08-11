@@ -10,8 +10,8 @@ You must declare Discord Itents to use differents events
 
 To use Discord Privileged Intents, you must activate it on [Discord Developer Portal](https://discord.com/developers/applications) in your bot settings
 
-You can use a list of Discord Intents you need with `intentsBits`, or use a code with `intentsCode`
-To use `intentsCode`, you can use [Discord Itents Calculator](https://discord-intents-calculator.vercel.app/)
+You can use a list of Discord Intents you need with `intentsBits`, or use a code with `intentsCode`<br>
+To use `intentsCode`, you can use [Discord Itents Calculator](https://discord-intents-calculator.vercel.app/)<br>
 Also, you can see events you can use with Discord Intents checked
 
 ## `deployer.js`
