@@ -9,6 +9,10 @@ const rest = new REST({ version: "10" }).setToken(id.token)
 const commands = [
 
     new SlashCommandBuilder()
+    .setName("ping")
+    .setDescription("A simple test slash commannd"),
+
+    new SlashCommandBuilder()
     .setName("infos")
     .setDescription("A simple slash command to show bot informations")
 

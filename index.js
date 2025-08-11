@@ -40,6 +40,20 @@ client.on("interactionCreate", interaction => {
     const { commandName } = interaction
 
     //Code for slash command "infos"
+    if(commandName == "ping") {
+
+        //A Discord Embed to enhance the style of the reply
+        const pingEmbed = new EmbedBuilder()
+        .setTitle("Ping ?")
+        .setColor("Green")
+        .setThumbnail(client.user.avatarURL())
+        .setDescription("Pong!")
+
+        interaction.reply({ embeds: [pingEmbed] })
+
+    }
+
+    //Code for slash command "infos"
     if(commandName == "infos") {
         
         //A Discord Embed to enhance the style of the reply
