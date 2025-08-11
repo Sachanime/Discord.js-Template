@@ -1,2 +1,36 @@
 # Discord.js-Template
-A template for developing a full functional Discord bot with Discord.js
+Is a template for make a full customized Discord bot adapted to your server on wich is installed
+
+## How to use
+Clone the content repository in your projects directory and rename downloaded directory with any name you want<br>
+Next, you can edit your new project with an IDE like [Visual Studio Code](https://code.visualstudio.com/)
+
+## Discord Intents
+You must declare Discord Itents to use differents events
+
+To use Discord Privileged Intents, you must activate it on [Discord Developer Portal](https://discord.com/developers/applications) in your bot settings
+
+You can use a list of Discord Intents you need with `intentsBits`, or use a code with `intentsCode`
+To use `intentsCode`, you can use [Discord Itents Calculator](https://discord-intents-calculator.vercel.app/)
+Also, you can see events you can use with Discord Intents checked
+
+## `deployer.js`
+Use this file to deploy slash commands you want to use<br>
+
+You need [Node.js](https://nodejs.org/) to execute this script (`node deployer.js`) and deploy commands<br>
+You need to execute only once no matter how many times you restart your Discord bot<br>
+You must execute it every time you add or edit commands
+
+## `id.json`
+Put in this file all id or token you need, like client id, channels id, guilds id, etc...
+
+You must put in this file your bot client id and token to use it in the `index.js` and `deployer.js`
+
+## `package.json` and `package-lock.json`
+`package.json` contains informations that you can edit, like Discord bot name, version, author, etc...
+
+`package-lock.json` contains informations about Node.js package used in your project<br>
+You must not edit this file manualy<br>
+If you want update a Node.js package, you need [Node.js](https://nodejs.org/) and execute `npm update <package>`<br>
+But you can use this file to get informations about packages and use it in your code
+*You can see `infosEmbed` for an exemple*
