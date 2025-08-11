@@ -6,12 +6,12 @@ Clone this repository and rename it with any name you want<br>
 Next, you can edit your new project with an IDE like [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Discord Intents
-You must declare Discord Itents to use differents events
+> \[!IMPORTANT]\
+> You must declare Discord Itents to use differents events<br>
+> To use Discord Privileged Intents, you must activate it on [Discord Developer Portal](https://discord.com/developers/applications) in your bot settings
 
-To use Discord Privileged Intents, you must activate it on [Discord Developer Portal](https://discord.com/developers/applications) in your bot settings
-
-You can use a list of Discord Intents you need with `intentsBits`, or use a code with `intentsCode`<br>
 > \[!NOTE]\
+>You can use a list of Discord Intents you need with `intentsBits`, or use a code with `intentsCode`<br>
 > To use `intentsCode`, you can use [Discord Itents Calculator](https://discord-intents-calculator.vercel.app/)<br>
 > Also, you can see events you can use with Discord Intents checked
 
