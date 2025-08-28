@@ -4,7 +4,9 @@ Is a template for make a full customized Discord bot adapted to your server on w
 [![Discord.js](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FSachanime%2FDiscord.js-Template%2Fmain%2Fpackage-lock.json&query=%24.packages%5B'node_modules%2Fdiscord.js'%5D.version&label=Discord.js&color=%235865f2&logo=Discord.js)](https://discord.js.org/)
 
 ## How to use
-Clone this repository and rename it with any name you want<br>
+- Clone this repository and rename it with any name you want<br>
+- Run `npm install` in your project directory to install dependencies
+
 Next, you can edit your new project with an IDE like [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Discord Intents
