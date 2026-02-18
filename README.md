@@ -1,5 +1,5 @@
 # Discord.js-Template
-Is a template for make a full customized Discord bot adapted to your server on wich is installed
+A template to create a fully customized Discord bot suited to your server.
 
 [![Discord.js](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FSachanime%2FDiscord.js-Template%2Fmain%2Fpackage-lock.json&query=%24.packages%5B'node_modules%2Fdiscord.js'%5D.version&label=Discord.js&color=%235865f2&logo=Discord.js)](https://discord.js.org/)
 
@@ -11,16 +11,16 @@ Next, you can edit your new project with an IDE like [Visual Studio Code](https:
 
 ## Discord Intents
 > \[!IMPORTANT]\
-> You must declare Discord Itents to use differents events<br>
+> You must declare Discord Itents to use different events<br>
 > To use Discord Privileged Intents, you must activate it on [Discord Developer Portal](https://discord.com/developers/applications) in your bot settings
 
 > \[!NOTE]\
->You can use a list of Discord Intents you need with `intentsBits`, or use a code with `intentsCode`<br>
+> You can use a list of required intents with `intentsBits`, or use an integer code with `intentsCode`<br>
 > To use `intentsCode`, you can use [Discord Itents Calculator](https://discord-intents-calculator.vercel.app/)<br>
-> Also, you can see events you can use with Discord Intents checked
+> Make sure the intents you declare match the events your bot listens to.
 
 ## `deployer.js`
-Use this file to deploy slash commands you want to use<br>
+Use this file to deploy your slash commands<br>
 
 You need [Node.js](https://nodejs.org/) to execute this script (`node deployer.js`) and deploy commands<br>
 You need to execute only once no matter how many times you restart your Discord bot<br>
@@ -42,4 +42,4 @@ You must not edit this file manualy<br>
 If you want update a Node.js package, you need [Node.js](https://nodejs.org/) and execute `npm update <package>`<br>
 
 But you can use this file to get informations about packages and use it in your code<br>
-*You can see `infosEmbed` for an exemple*
+*You can see `infosEmbed` for an example*

@@ -2,7 +2,7 @@
 const { Client, GatewayIntentBits, EmbedBuilder } = require("discord.js") //Put here all Discord classes you need
 
 //Import all files you need
-const id = require("./id.json") //Ypu need id.json to use the token of your bot
+const id = require("./id.json") //You need id.json to store your bot's token.
 const package = require ("./package.json")
 const packageLock = require("./package-lock.json")
 
@@ -15,14 +15,15 @@ const client = new Client({ intents: intentsBits }) //You can use intentsCode or
 
 client.login(id.token) //The token must be delcared in id.json
 
-//Put in this event the code you to be executed when your bot is ready
+//This event runs once when the bot successfully connects to Discord.
+//Add any code here that should execute on startup.
 client.once("ready", () => {
 
     console.log("Ready!")
 
 })
 
-//Put in this event all your textual commands (require Discord Intent "GuildMessages")
+//Put all your prefix-based text commands in this event (requires GuildMessages intent)
 client.on("messageCreate", (message) => {
 
     if(message.author.bot) { return } //Ignore all messages from other Discord bots
