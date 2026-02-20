@@ -17,7 +17,7 @@ client.login(id.token) //The token must be delcared in id.json
 
 //This event runs once when the bot successfully connects to Discord.
 //Add any code here that should execute on startup.
-client.once("ready", () => {
+client.once("clientReady", () => {
 
     console.log("Ready!")
 
